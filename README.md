@@ -65,4 +65,5 @@ The result:
 
 Okay so far a heightmap was technically made but when imported into Minecrft WorldEditor (a programm that can generate custom Minecraft maps, furthermore with importing heightmaps) the result was this:
 
+![image](https://user-images.githubusercontent.com/70364903/234211051-763dec25-9287-41a7-bd2d-9bb73b757b17.png)
 
