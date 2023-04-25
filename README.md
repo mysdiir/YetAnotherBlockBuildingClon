@@ -58,6 +58,11 @@ for (int x = 0; x < width; x++) {
     
 ```
 
+The result:
+
 
 ![Procedural generated noise map](https://user-images.githubusercontent.com/70364903/234199370-d672e529-912f-4518-b9d2-4c1925ba52ed.png)
+
+Okay so far a heightmap was technically made but when imported into Minecrft WorldEditor (a programm that can generate custom Minecraft maps, furthermore with importing heightmaps) the result was this:
+
 
