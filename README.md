@@ -9,3 +9,23 @@ This repo will won't contain the final game as a playable version, moresoever th
 Have fun while reading ;)
 
 ## Map generation
+### Creating a hightmap
+
+```Java
+public class NoiseGenerator {
+  private final int WIDTH = 600;
+  private final int HEIGHT = 600;
+  
+  private int[][] coordinates = new int[WIDTH][HEIGHT];
+  
+  public void generateNoise(int width, int height) {
+    
+    for (int x = 0; x < coordinates[][].length; x++) {
+      for (int y = 0; y < coordinates[][].length; y++) {
+        
+      }
+    }
+    
+  }
+}
+```
