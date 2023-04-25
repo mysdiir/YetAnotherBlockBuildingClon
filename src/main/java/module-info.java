@@ -9,6 +9,7 @@ module com.example.yetanotherblockbuildingclone {
     requires org.kordamp.ikonli.javafx;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens com.example.yetanotherblockbuildingclone to javafx.fxml;
     exports com.example.yetanotherblockbuildingclone;
