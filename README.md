@@ -44,6 +44,7 @@ for (int x = 0; x < width; x++) {
  }
  ```
  
+ 
  Generate a `png` file and handle the upcoming `IOException`
  
  ```Java
