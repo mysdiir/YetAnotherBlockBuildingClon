@@ -37,4 +37,4 @@ Have fun while reading ;)
  }
     
 ```
-![]([image.png](https://user-images.githubusercontent.com/70364903/234199370-d672e529-912f-4518-b9d2-4c1925ba52ed.png))
+![image.png](https://user-images.githubusercontent.com/70364903/234199370-d672e529-912f-4518-b9d2-4c1925ba52ed.png))
