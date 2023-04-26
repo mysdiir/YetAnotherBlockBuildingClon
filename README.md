@@ -2,7 +2,7 @@
 
 ## What is it about?
 
-Well, while preparing for my final exam I started playing Minecraft,just to clear my mind and find a little relaxation. But then some strange thought came into my mind: How does Minecraft work? 
+Well, while preparing for my final exam I started playing Minecraft, just to clear my mind and find a little relaxation. But then some strange thought came into my mind: How does Minecraft work? 
 And there it was: the itching feeling in my fingers and so was born the idea to recreate Minecraft for myself.
 
 This repo will won't contain the final game as a playable version, moresoever this is a little blog where I write down my progress of creating it.
@@ -32,7 +32,7 @@ Creating a new `BufferedImage` object.
   BufferedImage map = new BufferedImage(width, height, BufferedImage.TYPE_BYTE_GRAY);
 ```
 
-Iterate trouhg X and Y coordinate dimenons and set a random generated greyvalue between 0 and 255
+Iterate trough X and Y coordinate dimenons and set a random generated greyvalue between 0 and 255
 
 ```Java
 for (int x = 0; x < width; x++) {
