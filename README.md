@@ -29,7 +29,7 @@ Setting up the image and randomizer conditions:
   int width = 600;
   int height = 600;
   
-   double min = 0;
+  double min = 0;
   double max = 255;
 ```
 
