@@ -3,7 +3,7 @@
 # Table of Contents
 1. [Introduction?](#introduction)
 2. [Map generation](#mapgeneration)
-3. [Creating a hightmao](#Creating a hightmap)
+  2.1 [Creating a hightmao](#Creatingahightmap)
 
 
 ## Introduction<a name="introduction"></a>
@@ -15,7 +15,7 @@ This repo will won't contain the final game as a playable version, moresoever th
 Have fun while reading ;)
 
 ## Map generation <a name="mapgeneration"></a>
-### Creating a hightmap <a name="Creating a hightmap"></a>
+### Creating a hightmap <a name="Creatingahightmap"></a>
 
 My first idea was to generate a noise map, made by random generated greyscale values, which are converted to a image by a `BufferedImage` Object.
 
