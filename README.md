@@ -1,12 +1,10 @@
 # Yet another block building clone
 
 # Table of Contents
-1. [What is it about?](#What is it about?)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+1. [What is it about?](#introduction?)
 
-## What is it about?
+
+## Introduction<a name="introduction"></a>
 
 Well, while preparing for my final exam I started playing Minecraft, just to clear my mind and find a little relaxation. But then some strange thought came into my mind: How does Minecraft work? 
 And there it was: the itching feeling in my fingers and so was born the idea to recreate Minecraft for myself.
