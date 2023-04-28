@@ -70,11 +70,18 @@ The result:
 
 ![Procedural generated noise map](https://user-images.githubusercontent.com/70364903/234199370-d672e529-912f-4518-b9d2-4c1925ba52ed.png)
 
-Okay so far a heightmap was technically made but when imported into Minecrft WorldEditor (a programm that can generate custom Minecraft maps, furthermore with importing heightmaps) the result was this:
+Okay so far a heightmap was technically made but when imported into Minecraft WorldEditor (a programm that can generate custom Minecraft maps, furthermore with importing heightmaps) the result was this:
 
 
 ![image](https://user-images.githubusercontent.com/70364903/234211051-763dec25-9287-41a7-bd2d-9bb73b757b17.png)
 
+Well, that was pretty the result that I expected and so I kept on searching ways to make a smoother terrain generation.
 
 ### Perlin Noise <a name="Perlinnoise"></a>
+
+
+If you take a look at the terrain arround you, you will notice that mountains and hills often show a smoothly transition between lower and higher parts.
+The problem with my first attempt of generating a height map with random noise generation was, that each pixel doesn't have a relationship to each other and this avoids the generation of an natural ascent.
+
+Thanks to the <a href="https://www.youtube.com/watch?v=iW4nFygKAjw&list=PLA2Wxg-e7vbA1LC15uXM0s8p5Nhse_rNn">great video series made by Fataho</a> I started understanding the the genius behind the Perlin noise algorithm and even though I had been a lazy math student during my high school times that could barely be motivated, I started gaining a huge interest in the functionality of Perlin noise.
 
