@@ -88,3 +88,14 @@ Thanks to the <a href="https://www.youtube.com/watch?v=iW4nFygKAjw&list=PLA2Wxg-
 So let's do a little digression on Perlin noise:
 
 After taking part at the CGI production team of Disney's movie Tron (1982) and being frustrated of the lack of natural look created by computers, Perlin descided to work on a method to make it look more natural.
+
+With his created noise generator, Perlin won the 1997 the Academy Award for Technical Achievment and set the path for procedural landscape generation untill today.
+
+But let's take a look at the algorithm itself, understand the basic problem and find out how Perlin Noise works.
+
+As I said before when you generate a random generated noise, the values have no relationship as shown in the following graphic
+
+![image](https://user-images.githubusercontent.com/70364903/235259572-7aeae6d6-8106-4e64-8639-6ed7ea6dc3a2.png)
+
+
+
