@@ -3,7 +3,6 @@
 # Table of Contents
 1. [Introduction?](#introduction)
 2. [Map generation](#mapgeneration)
-   1. [Sub paragraph](#subparagraph1)
    1. [Creating a hightmao](#Creatingahightmap)
 
 
