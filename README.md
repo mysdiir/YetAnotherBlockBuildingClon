@@ -3,7 +3,8 @@
 # Table of Contents
 1. [Introduction?](#introduction)
 2. [Map generation](#mapgeneration)
-   1. [Creating a hightmao](#Creatingahightmap)
+   1. [Creating a hightmap](#Creatingahightmap)
+   2. [Perlin noise](#Perlinnoise)
 
 
 ## Introduction<a name="introduction"></a>
@@ -75,5 +76,5 @@ Okay so far a heightmap was technically made but when imported into Minecrft Wor
 ![image](https://user-images.githubusercontent.com/70364903/234211051-763dec25-9287-41a7-bd2d-9bb73b757b17.png)
 
 
-### Perlin Noise
+### Perlin Noise <a name="Perlinnoise></a>
 
