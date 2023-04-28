@@ -1,7 +1,9 @@
 # Yet another block building clone
 
 # Table of Contents
-1. [What is it about?](#introduction?)
+1. [Introduction?](#introduction)
+2. [Map generation](#map generation)
+3. [Creating a hightmao] (#Creating a hightmap)
 
 
 ## Introduction<a name="introduction"></a>
@@ -12,8 +14,8 @@ And there it was: the itching feeling in my fingers and so was born the idea to 
 This repo will won't contain the final game as a playable version, moresoever this is a little blog where I write down my progress of creating it.
 Have fun while reading ;)
 
-## Map generation
-### Creating a hightmap
+## Map generation <a name="map generation"></a>
+### Creating a hightmap <a name="Creating a hightmap"></a>
 
 My first idea was to generate a noise map, made by random generated greyscale values, which are converted to a image by a `BufferedImage` Object.
 
