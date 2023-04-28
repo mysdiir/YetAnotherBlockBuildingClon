@@ -85,3 +85,6 @@ The problem with my first attempt of generating a height map with random noise g
 
 Thanks to the <a href="https://www.youtube.com/watch?v=iW4nFygKAjw&list=PLA2Wxg-e7vbA1LC15uXM0s8p5Nhse_rNn">great video series made by Fataho</a> I started understanding the the genius behind the Perlin noise algorithm and even though I had been a lazy math student during my high school times that could barely be motivated, I started gaining a huge interest in the functionality of Perlin noise.
 
+So let's do a little digression on Perlin noise:
+
+After taking part at the CGI production team of Disney's movie Tron (1982) and being frustrated of the lack of natural look created by computers, Perlin descided to work on a method to make it look more natural.
