@@ -11,8 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
-/.idea
-/.mvn
+*.idea
+*.mvn
 
 ### Eclipse ###
 .apt_generated
@@ -38,8 +38,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+<<<<<<< HEAD
 
-.idea
-.mvn
-mvnw
-mvnw.cmd
+=======
+>>>>>>> 0a9177fc9e1ffb684875a4aaa41b408fbc25d237
