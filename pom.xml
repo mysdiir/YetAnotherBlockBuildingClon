@@ -16,6 +16,18 @@
         <steamworks4j.version>1.9.0</steamworks4j.version>
         <steamworks4j-server.version>1.9.0</steamworks4j-server.version>
     </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <profiles>
         <profile>
