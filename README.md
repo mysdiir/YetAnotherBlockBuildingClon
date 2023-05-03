@@ -100,7 +100,7 @@ As I said before when you generate a random generated noise, the values have no 
 To explain Perlin Noise indepth is way too much for that little devblog but I'll try to explain at the most basic concepts:
 
 
-The main function of Perlin noise is set a randgom generated values in a relationship to each other, like you can see in the graphic below.
+The main function of Perlin noise is set a random generated values in a relationship to each other, like you can see in the graphic below.
 
 
 ![image](https://user-images.githubusercontent.com/70364903/236028686-bb2846b5-fe88-4d23-af7d-7064d06b1c4b.png)
