@@ -97,5 +97,36 @@ As I said before when you generate a random generated noise, the values have no 
 
 ![image](https://user-images.githubusercontent.com/70364903/235259572-7aeae6d6-8106-4e64-8639-6ed7ea6dc3a2.png)
 
+To explain Perlin Noise indepth is way too much for that little devblog but I'll try to explain at the most basic concepts:
+
+
+The main function of Perlin noise is set a randgom generated values in a relationship to each other, like you can see in the graphic below.
+
+
+![image](https://user-images.githubusercontent.com/70364903/236028686-bb2846b5-fe88-4d23-af7d-7064d06b1c4b.png)
+
+Perlin noise consits out of three basic concepts:
+- Grid definition
+- Dot product
+- Interpolation
+
+Lets take a look at each of these basic concepts:
+
+#### Grid definition
+Imagine an empty picture with resolution 100 x 100 px. First of all we need to implement a grid system, that consists of certain pixels.
+The bigger the grid is, the more detailes are shown on the output image, like from a completely blury image to a more detailed version of it.
+
+![image](https://user-images.githubusercontent.com/70364903/236035983-ed8946c0-e671-4a81-b9ba-33853c9954ed.png)
+1x1 Grid
+
+![image](https://user-images.githubusercontent.com/70364903/236036076-5666e82a-ee09-4ef1-a7c8-b550f5f48779.png)
+32 x 32 grid
+
+This grid system has the task to generate a gradient vector on each corner point, that points into random directions. Technically choosing this gradient vector doesn't happen with random generating numbers function (like in Java `Math.random()`), instead a random number table (basicallly an array where random numbers are stored, desinged by Perlin) is used here.
+To be honest, at the moment of writing this, I don't fully understand why the table has to be used, as far as I read, it has something to do with preventing an overflow, but I'll keep on researching ;).
+
+The second vectors we need are distance vector that basically points from every corder to the pixel where we want to place a grey value.
+Those two vectors are the essential part to calculate the second basic concept of Perlin noise: the Dot Product.
+
 
 
